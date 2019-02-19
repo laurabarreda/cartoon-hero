@@ -1,0 +1,63 @@
+header {
+	padding: 0px;
+	text-align: center;
+	  background: url("../pattern1.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	font-size: 64px;
+	color:white;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	text-align: center;
+	font-weight: 400;
+	padding-top: 230px;
+	letter-spacing: 3px;
+	margin-bottom: -12px;
+	margin-top: 0;
+}
+
+h2{
+	font-size: 24px;
+	color:#F61820;
+	font-weight: 400;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	letter-spacing: 2px;
+}
+
+body{
+  background-image: "pattern1.jpg";
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: top;
+  background-size: 100%, auto;
+  margin: 0px;
+}
+
+h3{
+	font-size: 23px;
+	color:#E8E8E8;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 2px;
+	font-weight: 330;
+	line-height: 34px;
+	padding-top: 132px;
+	padding-bottom: 132px;
+	padding-right: 350px;
+	padding-left: 350px;
+	text-align: justify;  
+    -moz-text-align-last: center; 
+    text-align-last: center;
+}
+
+.headline {
+	background-color:#F61820; 
+}
+
+.images {
+	margin-top: -23px;
+}
