@@ -1,11 +1,12 @@
 header {
 	padding: 0px;
 	text-align: center;
-	  background: url("../pattern1.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+	background: url("../pattern1.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	margin-bottom: -23px;
 }
 
 h1{
@@ -20,6 +21,7 @@ h1{
 	margin: auto;
 	position: relative;
 	top: 38%;
+	text-shadow: -1.5px 1px #f299bb;
 }
 
 h2{
@@ -51,11 +53,10 @@ h3{
 	line-height: 34px;
 	padding-top: 132px;
 	padding-bottom: 132px;
-	padding-right: 350px;
-	padding-left: 350px;
+	padding-right: 28%;
+	padding-left: 28%;
 	text-align: justify;  
-    -moz-text-align-last: center; 
-    text-align-last: center;
+	text-align-last: justify;
 }
 
 .headline {
