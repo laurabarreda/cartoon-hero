@@ -7,6 +7,7 @@ header {
   	-o-background-size: cover;
   	background-size: cover;
   	margin-bottom: -23px;
+  	margin-top: -16px;
 }
 
 h1{
@@ -54,6 +55,16 @@ h3{
 	text-align-last: justify;
 }
 
+footer {
+	background: url("../pattern2.jpg") no-repeat center fixed;
+  	-webkit-background-size: contain;
+  	-moz-background-size: contain;
+  	-o-background-size: contain;
+  	background-size: cover;
+  	background-position: bottom;
+  	padding-top: 100px;
+}
+
 .headline {
 	background-color:#F61820; 
 }
@@ -62,30 +73,7 @@ h3{
 	margin-top: -23px;
 }
 
-.card{
-	position:relative;
-	display: flex;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
-	flex-direction: column;
-}
-
-.card-img {
-    width: 100%;
-    vertical-align: middle;
-    margin-top: -4px;
-}
-
-.card-img-overlay {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-}
-
-.card-title{
+h4{
 	font-size: 36px;
 	color:#F61820;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
@@ -93,10 +81,10 @@ h3{
 	font-weight: 430;
 	letter-spacing: 3px;
 	margin-bottom: 50px;
-	margin-top: 10%;
+	padding-top: 64px;
 }
 
-.card-text{
+.text{
 	font-size: 20px;
 	color:#F61820;
 	text-align: center;
@@ -105,4 +93,5 @@ h3{
 	font-weight: 200;
 	line-height: 11px;
 	text-align: justify-all;
+	padding-bottom: 105px;
 }
