@@ -35,12 +35,7 @@ h2{
 }
 
 body{
-  background-image: "pattern1.jpg";
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: top;
-  background-size: 100%, auto;
-  margin: 0px;
+  	margin: 0px;
 }
 
 h3{
@@ -48,13 +43,13 @@ h3{
 	color:#E8E8E8;
 	text-align: center;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	letter-spacing: 2px;
+	letter-spacing: 1.4px;
 	font-weight: 200;
 	line-height: 34px;
 	padding-top: 132px;
 	padding-bottom: 132px;
-	padding-right: 28%;
-	padding-left: 28%;
+	padding-right: 30%;
+	padding-left: 30%;
 	text-align: justify;  
 	text-align-last: justify;
 }
@@ -65,4 +60,34 @@ h3{
 
 .images {
 	margin-top: -23px;
+}
+
+footer {
+	padding: 0px;
+	text-align: center;
+	background: url("../pattern2.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+h4{
+	font-size: 36px;
+	color:#F61820;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	text-align: center;
+	font-weight: 430;
+	letter-spacing: 3px;
+}
+
+.h5{
+	font-size: 20px;
+	color:#F61820;
+	text-align: center;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	letter-spacing: 1px;
+	font-weight: 200;
+	line-height: 11px;
+	text-align: justify-all;
 }
