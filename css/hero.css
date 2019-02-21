@@ -2,6 +2,30 @@
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 }
 
+#navbar {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
 header {
 	padding: 0px;
 	text-align: center;
@@ -22,6 +46,8 @@ h1{
 	position: relative;
 	top: 39%;
 	text-shadow: -1.5px 1px #f299bb;
+	position: sticky;
+	margin-bottom: 35px;
 }
 
 h2{
@@ -31,7 +57,8 @@ h2{
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	letter-spacing: 2px;
 	position: relative;
-	top: 39%;
+	top: 52%;
+	position: sticky;
 }
 
 body{
@@ -46,13 +73,12 @@ h3{
 	letter-spacing: 1.4px;
 	font-weight: 200;
 	line-height: 34px;
-	padding-top: 125px;
-	padding-bottom: 125px;
+	padding-top: 115px;
+	padding-bottom: 135px;
 	padding-right: 31%;
 	padding-left: 31%;
 	text-align: justify;  
 	text-align-last: center;
-	margin-bottom: 55px;
 }
 
 .headline {
@@ -66,7 +92,7 @@ h3{
 }
 
 footer {
-	background: url("../pattern2.jpg") no-repeat center fixed;
+	background: url("../pattern3.jpg") no-repeat center fixed;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -179,6 +205,9 @@ h4{
     object-fit: cover;
   }
 
+  .red{
+  background-color:#e03b41;
+}
   .white{
   background-color:#c2bebe;
 }

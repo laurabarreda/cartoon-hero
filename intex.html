@@ -23,7 +23,7 @@
 			<div class="row">
           <div class="col-md-6 col-sm-12 col-xs-12 sem">
               <img class="img-fluid full-image" src="01.jpg">
-              <div class="xx">
+              <div class="xx red">
                 <div class="x">
                   <p class="over-title">KYOOT</p>
                 </div>
@@ -111,6 +111,18 @@
 	</div>
 	<script type="text/javascript">
 		document.querySelector("header").style.height = window.innerHeight + "px";
+	</script>
+	<script>
+		var prevScrollpos = window.pageYOffset;
+		window.onscroll = function() {
+		var currentScrollPos = window.pageYOffset;
+  		if (prevScrollpos > currentScrollPos) {
+    		document.getElementById("navbar").style.top = "0";
+  		} else {
+    		document.getElementById("navbar").style.top = "-50px";
+  		}
+  		prevScrollpos = currentScrollPos;
+	}
 	</script>
 </body>
 </html>
