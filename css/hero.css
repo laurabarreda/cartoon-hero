@@ -1,3 +1,7 @@
+* {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
 header {
 	padding: 0px;
 	text-align: center;
@@ -6,22 +10,17 @@ header {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
-  	margin-bottom: -23px;
   	margin-top: -16px;
 }
 
 h1{
 	font-size: 64px;
 	color:white;
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	text-align: center;
 	font-weight: 400;
 	letter-spacing: 3px;
-	margin-bottom: -12px;
-	margin-top: 0;
-	margin: auto;
 	position: relative;
-	top: 38%;
+	top: 39%;
 	text-shadow: -1.5px 1px #f299bb;
 }
 
@@ -32,7 +31,7 @@ h2{
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	letter-spacing: 2px;
 	position: relative;
-	top: 37%;
+	top: 39%;
 }
 
 body{
@@ -40,58 +39,167 @@ body{
 }
 
 h3{
-	font-size: 23px;
+	font-size: 20px;
 	color:#E8E8E8;
 	text-align: center;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	letter-spacing: 1.4px;
 	font-weight: 200;
 	line-height: 34px;
-	padding-top: 132px;
-	padding-bottom: 132px;
-	padding-right: 30%;
-	padding-left: 30%;
+	padding-top: 125px;
+	padding-bottom: 125px;
+	padding-right: 31%;
+	padding-left: 31%;
 	text-align: justify;  
-	text-align-last: justify;
-}
-
-footer {
-	background: url("../pattern2.jpg") no-repeat center fixed;
-  	-webkit-background-size: contain;
-  	-moz-background-size: contain;
-  	-o-background-size: contain;
-  	background-size: cover;
-  	background-position: bottom;
-  	padding-top: 100px;
+	text-align-last: center;
+	margin-bottom: 55px;
 }
 
 .headline {
 	background-color:#F61820; 
 }
 
-.images {
-	margin-top: -23px;
+.col-md-6.sem {
+	margin-top: 55px;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+footer {
+	background: url("../pattern2.jpg") no-repeat center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-position: bottom;
+  	margin-top: 50px;
 }
 
 h4{
-	font-size: 36px;
+	font-size: 28px;
 	color:#F61820;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	text-align: center;
 	font-weight: 430;
 	letter-spacing: 3px;
-	margin-bottom: 50px;
-	padding-top: 64px;
+	margin-bottom: 45px;
+	padding-top: 6%;
 }
 
 .text{
-	font-size: 20px;
+	font-size: 16px;
 	color:#F61820;
 	text-align: center;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
-	letter-spacing: 1px;
+	letter-spacing: 0.5px;
 	font-weight: 200;
-	line-height: 11px;
+	line-height: 6px;
 	text-align: justify-all;
-	padding-bottom: 105px;
+	padding-bottom: 6%;
 }
+
+.hello {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+  }
+
+  @keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  /* Opera < 12.1 */
+  @-o-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+  .portfolio-img {
+    object-fit: cover;
+  }
+  .xx {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    /* SO CUTE KISS KISS*/
+	background-color:#F61820;
+    /* UP HERE BABE*/
+    color: white;
+    letter-spacing: 3px;
+    font-size: 16px;
+  }
+  .x {
+    position: absolute;
+   	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+  }
+  .y {
+    position: absolute;
+   top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+  }
+  .over {
+    position: relative;
+    cursor: pointer;
+  }
+  .xx:hover {
+    opacity: 0.8;
+    transition: 1s ease;
+    width: 75%;
+  }
+  .full-imgage {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .white{
+  background-color:#c2bebe;
+}
+	.pink{
+  background-color:#b2938e;
+}
+	.blue{
+  background-color:#3d8bd5;
+}
+	.green{
+  background-color:#678b5b;
+}
+	.grey{
+  background-color:#728498;
+}
+	.black{
+  background-color:#191b1a;
+}
+	.fucsia{
+  background-color:#e34f98;
+}
+
+
+
